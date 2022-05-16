@@ -12,37 +12,37 @@ export class ListComponent implements OnInit {
     {
       nombre: 'Marcos',
       calificacion: 7,
-      curso: 'Angular',
+      carrera: 'Ingeniero en sistemas',
       aprobo: true
     },
     {
       nombre: 'Miguel',
       calificacion: 6,
-      curso: 'Vue',
+      carrera: 'Ingeniero en Informatica',
       aprobo: true
     },
     {
       nombre: 'Jose',
       calificacion: 5,
-      curso: 'Angular',
+      carrera: 'Programacion',
       aprobo: true
     },
     {
       nombre: 'Juan Manuel',
       calificacion: 8.5,
-      curso: 'React',
+      carrera: 'Ingeniero en sistemas',
       aprobo: true
     },
     {
       nombre: 'Roberto',
       calificacion: 9.5,
-      curso: 'marketing',
+      carrera: 'Ingeniero en Informatica',
       aprobo: true
     },
     {
       nombre: 'Agustin',
       calificacion: 4.2,
-      curso: 'Vue',
+      carrera: 'Programacion',
       aprobo: true
 
     },
@@ -52,13 +52,13 @@ export class ListComponent implements OnInit {
     {
       nombre: 'Gisela',
       calificacion: 8,
-      curso: 'React',
+      carrera: 'Programacion',
       aprobo: true
     },
     {
       nombre: 'Micaela',
       calificacion: 5,
-      curso: 'JS',
+      carrera: 'Desarrolo Web',
       aprobo: true
     }
   ]

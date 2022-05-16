@@ -1,0 +1,27 @@
+.titleContent {
+    display: flex;
+    text-decoration: underline;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: beige;
+    font-size: 48px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    font-size: 13px;
+}
+
+.si {
+    color: blue;
+}
+
+.no {
+    color: red;
+}

@@ -60,6 +60,12 @@ export class ListComponent implements OnInit {
       calificacion: 5,
       carrera: 'Desarrolo Web.',
       aprobo: true
+    },
+    {
+      nombre: 'Sofia',
+      calificacion: 7,
+      carrera: 'Desarrollo Web',
+      aprobo: true
     }
   ]
   constructor() { }

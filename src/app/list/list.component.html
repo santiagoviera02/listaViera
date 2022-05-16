@@ -4,22 +4,22 @@
     <div class="list">
         <div *ngFor="let alumno of alumnos">
             <div *ngIf="alumno.calificacion>=7" [ngClass]="aprobo? 'si' : 'no' ">
-                <h2> El alumno {{alumno.nombre}} tuvo una nota de: {{alumno.calificacion}} en:
-                    {{alumno.carrera}} Estado: aprobado</h2>
+                <h2> El alumno {{alumno.nombre}} obtuvo una nota de: {{alumno.calificacion}} en:
+                    {{alumno.carrera}} 𝐀𝐏𝐑𝐎𝐁𝐀𝐃𝐎 ✔</h2>
             </div>
             <div *ngIf="alumno.calificacion<7" [ngClass]="aprobo? 'no' : 'si' ">
                 <h2>El alumno {{alumno.nombre}} obtuvo una nota de: {{alumno.calificacion}} en:
-                    {{alumno.carrera}} Estado: desaprobado </h2>
+                    {{alumno.carrera}} Estado: 𝐃𝐄𝐒𝐀𝐏𝐑𝐎𝐁𝐀𝐃𝐎 🅧</h2>
             </div>
         </div>
         <div *ngFor="let alumna of alumnas">
             <div *ngIf="alumna.calificacion>=7" [ngClass]="aprobo? 'si' : 'no' ">
-                <h2> La alumna {{alumna.nombre}} tuvo una nota de: {{alumna.calificacion}} en:
-                    {{alumna.carrera}} Estado: aprobado</h2>
+                <h2> La alumna {{alumna.nombre}} obtuvo una nota de: {{alumna.calificacion}} en:
+                    {{alumna.carrera}} 𝐀𝐏𝐑𝐎𝐁𝐀𝐃𝐎 ✔</h2>
             </div>
             <div *ngIf="alumna.calificacion<7" [ngClass]="aprobo? 'no' : 'si' ">
                 <h2>La alumna {{alumna.nombre}} obtuvo una nota de: {{alumna.calificacion}} en:
-                    {{alumna.carrera}} Estado: desaprobado</h2>
+                    {{alumna.carrera}} 𝐃𝐄𝐒𝐀𝐏𝐑𝐎𝐁𝐀𝐃𝐎 🅧</h2>
             </div>
         </div>
     </div>
